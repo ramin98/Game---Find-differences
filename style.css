@@ -1,0 +1,78 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+.photos-con{
+    display: flex;
+    flex-direction: row;
+}
+
+.first-photo{
+    width: 500px;
+    height: 500px;
+    background-image: url("sparth-dam-highway-v3-flat-final-small.jpg");
+    background-position:center;
+    background-size: cover;
+
+}
+.second-photo{
+    width: 500px;
+    height: 500px;
+    background-image: url("sparth-dam-highway-v3-flat-final-small.jpg");
+    background-position:center;
+    background-size: cover;
+}
+
+.difference{
+    position: absolute;
+    z-index: 99;
+    border: none;
+    background-color: transparent;
+    transition: 0.4s;
+    width: 20px;
+    height: 20px;
+    background-position:center;
+    background-size: cover;
+}
+
+.cyberpunk{
+    transform: translate(14px, 390px);
+    background-image: url('cyberpunk.png');
+}
+
+.cyborg{
+    transform: translate(442px, 150px);
+    background-image: url('cyborg.png');
+}
+
+.robot{
+    transform: translate(120px, 170px);
+    background-image: url('robot.png');
+}
+
+.agent{
+    transform: translate(182px, 264px);
+    background-image: url('agent.png');
+}
+
+.bionic{
+    transform: translate(213px, 446px);
+    background-image: url('bionic-eye.png');
+}
+
+.congratulations{
+    font-size: 100px;
+    color: brown;
+    font-weight: bolder;
+    display: none;
+    position: absolute;
+    z-index: 100;
+    text-shadow: black 0 -10px 3px;
+}
